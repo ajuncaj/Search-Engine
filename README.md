@@ -9,6 +9,6 @@ This project has 3 essential parts: An inverted index pipeline, a back-end "inde
 The inverted index is a 4-stage pipelined map-reduce program which is fed the raw html of pages and assigns the tf-idf score for each term in the input. It's designed to be run a single time with a shell script and later used by the engine to rank pages using the PageRank algorithm.
 
 ## Index server
-The index server consists
+The index server consists of 
 
 ## Search server
